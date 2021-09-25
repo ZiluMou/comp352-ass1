@@ -1,0 +1,17 @@
+public class oddonacci {
+     public int oddo(int n) {
+    	 if(n==0) {
+    		 return 1;
+    	 }
+    	 
+    	 if(n==1) {
+    		 return 1;
+    	 }
+    	 
+    	 if(n==2) {
+    		 return 1;
+    	 }
+    	 
+    	 return oddo(n-1)+oddo(n-2)+oddo(n-3);
+     }
+}
